@@ -1,4 +1,4 @@
 
 hostname = duckduckgo.com
 
-http-request ^https:\/\/duckduckgo.com\/\?q=.+ requires-body=true,script-path=https://raw.githubusercontent.com/yezhigang/Script/main/Q-Search.js, tag=Q-Search
+http-response ^https:\/\/duckduckgo.com\/\?q=.+ requires-body=true,script-path=https://raw.githubusercontent.com/yezhigang/Script/main/Q-Search.js, tag=Q-Search
