@@ -2,4 +2,4 @@
 hostname = duckduckgo.com
 
 
-^https:\/\/duckduckgo.com\/\?q=.+ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Q-Search.js, tag=重写搜索
+http-request ^https:\/\/duckduckgo.com\/\?q=.+ script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Q-Search.js, tag=重写搜索
